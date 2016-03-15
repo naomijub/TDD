@@ -1,0 +1,22 @@
+package Money.Calculator;
+
+public class Money {
+
+	private int amount;
+	
+	public Money(int x){
+		this.amount = x;
+	}
+	
+	public void multiply(int x){
+		amount *= x;
+	}
+	
+	public void sum(int x){
+		amount += x;
+	}
+	
+	public int getAmount(){
+		return amount;
+	}
+}

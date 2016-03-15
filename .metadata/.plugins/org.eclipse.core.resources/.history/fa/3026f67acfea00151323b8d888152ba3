@@ -1,0 +1,10 @@
+package Money.Calculator;
+
+public class Money {
+
+	private int amount;
+	
+	public Money(int x){
+		this.amount = x;
+	}
+}
