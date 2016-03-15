@@ -44,4 +44,10 @@ public class AppTest
     	//assertEquals(0, dollar.getAmount());
     	assertEquals(0, dollar.getModAmount());
     }
+    
+    public void testConvert(){
+    	Money dollar = new Money(5);
+    	dollar.convert(4.0);
+    	assertEquals(20.0, dollar.getAmount());
+    }
 }

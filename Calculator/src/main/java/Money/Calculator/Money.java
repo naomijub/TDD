@@ -32,6 +32,10 @@ public class Money {
 		modAmount = modAmount % x;
 	}
 	
+	public void convert(double x){
+		multiply(x);
+	}
+	
 	//public int getAmount(){
 	public double getAmount(){
 		return amount;
