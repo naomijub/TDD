@@ -26,20 +26,17 @@ public class AppTest
     	assertEquals(10.0, dollar.getAmount());
     	dollar.multiply(3);
     	assertEquals(30.0, dollar.getAmount());
-    	dollar.multiply(0);
-    	assertEquals(0.0, dollar.getAmount());
+    	assertEquals(0.0, dollar.multiply(0));
     }
     
     public void testSum(){
     	Money dollar = new Money(5);
-    	dollar.sum(5);
-    	assertEquals(10.0, dollar.getAmount());
+    	assertEquals(10.0, dollar.sum(5));
     }
     
     public void testDivide(){
     	Money dollar = new Money(10);
-    	dollar.divide(2);
-    	assertEquals(5.0, dollar.getAmount());
+    	assertEquals(5.0, dollar.divide(2));
     }
     
     public void testMod(){
@@ -53,5 +50,11 @@ public class AppTest
     	Money dollar = new Money(5);
     	dollar.convert(4.0);
     	assertEquals(20.0, dollar.getAmount());
+    }
+    
+    public void testConvertCurrency(){
+    	Money dollar = new Money(5);
+    	Money reais = new Money(dollar.multiply(4));
+    	assertEquals(20.0, reais.getAmount());
     }
 }

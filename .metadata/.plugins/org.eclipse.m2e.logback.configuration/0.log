@@ -69,3 +69,15 @@
 2016-03-15 15:13:38,431 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JAT\Desktop\Git\TDD\Calculator\src\main\resources
 2016-03-15 15:13:38,437 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2016-03-15 15:13:38,438 [Worker-36] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JAT\Desktop\Git\TDD\Calculator\src\test\resources
+2016-03-15 15:41:16,598 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-15 15:41:16,598 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JAT\Desktop\Git\TDD\Calculator\src\main\resources
+2016-03-15 15:41:16,598 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-15 15:41:16,598 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JAT\Desktop\Git\TDD\Calculator\src\test\resources
+2016-03-15 15:42:17,039 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-15 15:42:17,039 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JAT\Desktop\Git\TDD\Calculator\src\main\resources
+2016-03-15 15:42:17,039 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-15 15:42:17,039 [Worker-44] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JAT\Desktop\Git\TDD\Calculator\src\test\resources
+2016-03-15 15:45:07,818 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-15 15:45:07,818 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JAT\Desktop\Git\TDD\Calculator\src\main\resources
+2016-03-15 15:45:07,818 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2016-03-15 15:45:07,818 [Worker-39] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\JAT\Desktop\Git\TDD\Calculator\src\test\resources

@@ -12,24 +12,32 @@ public class Money {
 	}
 	
 	//public void multiply(int x){
-	public void multiply(double x){
+	//public void multiply(double x){
+	public double multiply(double x){
 		//amount = amount * 2;
 		//amount = amount * x;
 		amount *= x;
+		return amount;
 	}
 	
-	public void divide(double x){
+	//public void divide(double x){
+	public double divide(double x){
 		amount /= x;
+		return amount;
 	}
 	
 	//public void sum(int x){
-	public void sum(double x){
+	//public void sum(double x){
+	public double sum(double x){
 		amount += x;
+		return amount;
 	}
 	
-	public void mod(int x){
+	//public void mod(int x){
+	public int mod(int x){
 		modAmount = (int)amount;
 		modAmount = modAmount % x;
+		return modAmount;
 	}
 	
 	public void convert(double x){
