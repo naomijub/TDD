@@ -24,6 +24,10 @@ public class AppTest
     	Money dollar = new Money(5);
     	dollar.multiply(2);
     	assertEquals(10.0, dollar.getAmount());
+    	dollar.multiply(3);
+    	assertEquals(30.0, dollar.getAmount());
+    	dollar.multiply(0);
+    	assertEquals(0.0, dollar.getAmount());
     }
     
     public void testSum(){
