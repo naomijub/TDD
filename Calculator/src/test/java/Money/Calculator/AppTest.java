@@ -22,11 +22,9 @@ public class AppTest
 
     public void testMultiplication(){
     	Money dollar = new Money(5);
-    	dollar.multiply(2);
-    	assertEquals(10.0, dollar.getAmount());
-    	dollar.multiply(3);
-    	assertEquals(30.0, dollar.getAmount());
-    	assertEquals(0.0, dollar.multiply(0));
+    	assertEquals(new Money(10.0).getAmount(), dollar.multiply(2));
+    	assertEquals(new Money(30.0).getAmount(), dollar.multiply(3));
+    	assertEquals(new Money(0.0).getAmount(), dollar.multiply(0));
     }
     
     public void testSum(){
@@ -56,5 +54,11 @@ public class AppTest
     	Money dollar = new Money(5);
     	Money reais = new Money(dollar.multiply(4));
     	assertEquals(20.0, reais.getAmount());
+    }
+    
+    public void testEquals(){
+    	assertTrue(new Money(5).equals(new Money(5)));
+    	assertFalse(new Money(5).equals(new Money(6)));
+    	
     }
 }

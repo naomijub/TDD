@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testrun name="AppTest" project="Calculator" tests="2" started="2" failures="0" errors="0" ignored="0">
-  <testsuite name="Money.Calculator.AppTest" time="0.003">
-    <testcase name="testMultiplication" classname="Money.Calculator.AppTest" time="0.003"/>
-    <testcase name="testSum" classname="Money.Calculator.AppTest" time="0.0"/>
-  </testsuite>
-</testrun>

@@ -44,6 +44,11 @@ public class Money {
 		multiply(x);
 	}
 	
+	public boolean equals(Object object){
+		Money aux = (Money)object;
+		return (amount == aux.getAmount());
+	}
+	
 	//public int getAmount(){
 	public double getAmount(){
 		return amount;
